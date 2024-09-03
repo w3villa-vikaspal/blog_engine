@@ -5,7 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gemspec
 
 group :development do
-  gem 'mysql'
+  gem 'mysql2', '~> 0.5.2'
 end
 
 # To use a debugger
